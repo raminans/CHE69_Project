@@ -7,6 +7,10 @@ kabsch_proj
 
 The Kabsch algorithm, is a method for calculating the optimal rotation matrix that minimizes the RMSD (root mean squared deviation) between two paired sets of points.
 
+### File description
+kabsch_algorithm.py/kabsch_algorithm.py: Tha main python file containing all functions. The kabsch function takes two molecules .xyz files as input and calculated minimum root mean square distance. 
+tests/test_kabsch_proj.py: Contains unit tests for kabsch_algorithm.py.
+
 ### Copyright
 
 Copyright (c) 2018, raminans
